@@ -1,0 +1,140 @@
+<resources>
+
+    <string name="pref_key_version" translatable="false">com.iapps.applockerr.locker.old_version</string>
+    <!-- Keys -->
+    <string name="pref_key_password" translatable="false">com.iapps.applocker.locker.pref.passwd</string>
+    <string name="pref_key_pattern" translatable="false">com.iapps.applocker.locker.pref.pattern</string>
+    <string name="pref_key_lock_message" translatable="false">com.iapps.applocker.locker.pref.message_key</string>
+    <string name="pref_key_start_boot" translatable="false">com.iapps.applocker.locker.pref.start_boot</string>
+    <string name="pref_key_relock_after_screenoff" translatable="false">com.iapps.applocker.locker.pref.relock_after_screenoff</string>
+    <string name="pref_key_relock_between_switch_delay" translatable="false">com.iapps.applocker.locker.pref.relock_delay</string>
+    <string name="pref_key_vibrate" translatable="false">com.iapps.applocker.locker.pref.vibrate_keypress</string>
+    <string name="pref_key_performance" translatable="false">com.iapps.applocker.locker.pref.performance</string>
+    <string name="pref_key_delay_status" translatable="false">com.iapps.applocker.locker.pref.delay_status</string>
+    <string name="pref_key_delay_time" translatable="false">com.iapps.applocker.locker.pref.delay_time</string>
+    <string name="pref_key_show_notification" translatable="false">com.iapps.applocker.locker.pref.show_notification</string>
+    <string name="pref_key_hide_launcher_icon" translatable="false">com.iapps.applocker.locker.pref.hide_icon</string>
+    <string name="pref_key_dial_launch" translatable="false">com.iapps.applocker.locker.pref.dial_launch</string>
+    <string name="pref_key_hide_notification_icon" translatable="false">com.iapps.applocker.locker.pref.transparent_notification</string>
+    <string name="pref_key_cat_general" translatable="false">com.iapps.applocker.locker.pref.category_general</string>
+    <string name="pref_key_cat_notification" translatable="false">com.iapps.applocker.locker.pref.category_notification</string>
+    <string name="pref_key_cat_launcher" translatable="false">com.iapps.applocker.locker.pref.category_launcher</string>
+    <string name="pref_key_cat_about" translatable="false">com.iapps.applocker.locker.pref.category_about</string>
+    <string name="pref_key_changelog" translatable="false">com.iapps.applocker.locker.pref.changelog</string>
+    <string name="pref_key_recovery_code" translatable="false">com.iapps.applocker.locker.pref.recovery_code</string>
+    <string name="pref_key_lock_type" translatable="false">com.iapps.applocker.locker.pref.lock_type</string>
+    <string name="pref_key_hide_dots" translatable="false">com.iapps.applocker.locker.pref.hide_dots</string>
+    <string name="pref_key_password_expiry" translatable="false">com.iapps.applocker.locker.pref.password_expiry</string>
+    <string name="pref_key_max_password_retries" translatable="false">com.iapps.applocker.locker.pref.max_password_retries</string>
+    <string name="pref_key_pattern_stealth" translatable="false">com.iapps.applocker.locker.pref.pattern_stealth</string>
+    <string name="pref_key_screen" translatable="false">com.iapps.applocker.locker.pref.main_preference_screen</string>
+    <string name="pref_key_show_specific_settings" translatable="false">com.iapps.applocker.locker.pref.show_specific_settings</string>
+    <string name="pref_key_switch_buttons" translatable="false">com.iapps.applocker.locker.pref.switch_buttons</string>
+    <string name="pref_key_cat_password" translatable="false">com.iapps.applocker.locker.pref.category_password</string>
+    <string name="pref_key_cat_pattern" translatable="false">com.iapps.applocker.locker.pref.category_pattern</string>
+    <string name="pref_key_orientation" translatable="false">com.iapps.applocker.locker.pref.orientation</string>
+    <string name="pref_key_security_number" translatable="false">com.iapps.applocker.locker.pref.security_number</string>
+    <string name="pref_key_dial_launch_number" translatable="false">com.iapps.applocker.locker.pref.dial_launch_number</string>
+    <string name="pref_key_pattern_color" translatable="false">com.iapps.applocker.locker.pref.pattern_color</string>
+    <string name="pref_key_background" translatable="false">com.iapps.applocker.locker.pref.lockactivity_background</string>
+    <string name="pref_key_ads" translatable="false">com.iapps.applocker.locker.pref.show_ads</string>
+    <string name="pref_key_anim_show_type" translatable="false">com.iapps.applocker.locker.pref.anim_show_type</string>
+    <string name="pref_key_anim_hide_type" translatable="false">com.iapps.applocker.locker.pref.anim_hide_type</string>
+    <string name="pref_key_anim_show_millis" translatable="false">com.iapps.applocker.locker.pref.anim_show_millis</string>
+    <string name="pref_key_anim_hide_millis" translatable="false">com.iapps.applocker.locker.pref.anim_hide_millis</string>
+    <string name="pref_key_pattern_size" translatable="false">com.iapps.applocker.locker.pref.pattern_width</string>
+    <string name="pref_key_pattern_hide_error" translatable="false">com.iapps.applocker.locker.pref.pattern_hide_error</string>
+
+    <!-- Temp -->
+    <string name="pref_key_temp_wifi_unlock_state" translatable="false">temp.unlockstate</string>
+    <string name="pref_key_temp_wifi_ssid" translatable="false">temp.ssid</string>
+
+    <!-- Values -->
+    <string name="pref_val_perf_very_high" translatable="false">150</string>
+    <string name="pref_val_perf_high" translatable="false">200</string>
+    <string name="pref_val_perf_normal" translatable="false">250</string>
+    <string name="pref_val_perf_low" translatable="false">300</string>
+    <string name="pref_val_perf_very_low" translatable="false">350</string>
+    <!--  -->
+    <string name="pref_val_lock_type_password" translatable="false">password</string>
+    <string name="pref_val_lock_type_pattern" translatable="false">pattern</string>
+    <!--  -->
+    <string name="pref_val_orientation_auto_rotate" translatable="false">autorotate</string>
+    <string name="pref_val_orientation_system" translatable="false">system</string>
+    <string name="pref_val_orientation_portrait" translatable="false">portrait</string>
+    <string name="pref_val_orientation_landscape" translatable="false">landscape</string>
+    <string name="pref_val_pattern_color_white" translatable="false">pc_white</string>
+    <string name="pref_val_pattern_color_blue" translatable="false">pc_blue</string>
+    <string name="pref_val_pattern_color_green" translatable="false">pc_green</string>
+    <string name="pref_val_anim_fade" translatable="false">anim_fade</string>
+    <string name="pref_val_anim_slide_left" translatable="false">anim_slide_left</string>
+    <string name="pref_val_anim_slide_right" translatable="false">anim_slide_right</string>
+    <!-- <string translatable="false" name="pref_val_anim_none">anim_none</string> -->
+
+
+    <!--  -->
+    <string name="pref_val_bg_default" translatable="false">bg_none</string>
+    <!-- <string translatable="false" name="pref_val_bg_gallery">bg_gallery</string> -->
+    <!-- <string translatable="false" name="pref_val_bg_green">bg_green</string> -->
+    <!-- <string translatable="false" name="pref_val_bg_red">bg_red</string> -->
+    <!-- <string translatable="false" name="pref_val_bg_blue">bg_blue</string> -->
+    <!-- <string translatable="false" name="pref_val_bg_dark_blue">bg_dark_blue</string> -->
+    <!-- <string translatable="false" name="pref_val_bg_turquoise">bg_turquoise</string> -->
+    <!-- <string translatable="false" name="pref_val_bg_purple">bg_purple</string> -->
+    <!-- <string translatable="false" name="pref_val_bg_orange">bg_orange</string> -->
+
+    <string name="pref_def_password_expiry" translatable="false">0</string>
+    <string name="pref_def_max_password_retries" translatable="false">0</string>
+    <string name="pref_def_dial_launch_number" translatable="false">#12345</string>
+    <!-- <string translatable="false" name="pref_def_ads">false</string> -->
+    <string name="pref_def_anim_show_millis" translatable="false">300</string>
+    <string name="pref_def_anim_hide_millis" translatable="false">300</string>
+    <string name="pref_def_pattern_size" translatable="false">3</string>
+
+    <!-- Preference defaults -->
+    <item name="pref_def_background" type="string">@string/pref_val_bg_default</item>
+    <item name="pref_def_anim_show_type" type="string">@string/pref_val_anim_fade</item>
+    <item name="pref_def_anim_hide_type" type="string">@string/pref_val_anim_fade</item>
+    <item name="pref_def_lock_type" type="string">@string/pref_val_lock_type_password</item>
+    <item name="pref_def_vibrate" type="bool">true</item>
+    <item name="pref_def_switch_buttons" type="bool">false</item>
+    <item name="pref_def_pattern_size" type="integer">3</item>
+    <item name="pref_def_show_notification" type="bool">false</item>
+    <item name="pref_def_hide_notification_icon" type="bool">false</item>
+    <item name="pref_def_hide_launcher_icon" type="bool">false</item>
+    <item name="pref_def_dial_launch" type="bool">false</item>
+    <item name="pref_def_delay_status" type="bool">false</item>
+    <item name="pref_def_relock_after_screenoff" type="bool">true</item>
+    <item name="pref_def_start_boot" type="bool">true</item>
+    <item name="pref_def_pattern_stealth" type="bool">false</item>
+    <item name="pref_def_pattern_error_stealth" type="bool">false</item>
+
+    <string name="pref_def_delay_time" translatable="false">60</string>
+
+    <!-- <item name="pref_def_" type="bool">false</item> -->
+
+
+    <!--  -->
+    <string name="num0" translatable="false">0</string>
+    <string name="num1" translatable="false">1</string>
+    <string name="num2" translatable="false">2</string>
+    <string name="num3" translatable="false">3</string>
+    <string name="num4" translatable="false">4</string>
+    <string name="num5" translatable="false">5</string>
+    <string name="num6" translatable="false">6</string>
+    <string name="num7" translatable="false">7</string>
+    <string name="num8" translatable="false">8</string>
+    <string name="num9" translatable="false">9</string>
+    <string name="numBack" translatable="false">&lt;</string>
+    <!-- Works for 4.4 -->
+    <string name="packagename_dialer" translatable="false">com.android.dialer</string>
+
+    <!-- Navigation -->
+    <string name="nav_key_status" translatable="false">status</string>
+    <string name="nav_key_apps" translatable="false">apps</string>
+    <string name="nav_key_change" translatable="false">change</string>
+    <string name="nav_key_settings" translatable="false">settings</string>
+    <string name="nav_key_statistics" translatable="false">statistics</string>
+    <string name="nav_key_pro" translatable="false">Pro</string>
+
+</resources>

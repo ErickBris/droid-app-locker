@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@string/pref_key_screen" >
+
+    <Preference
+        android:key="@string/pref_key_lock_type"
+        android:title="@string/pref_tit_lock_type" />
+
+    <!-- PASSWORD -->
+    <PreferenceCategory
+        android:key="@string/pref_key_cat_password"
+        android:title="@string/pref_tit_cat_password" >
+
+        <!-- Vibration -->
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_vibrate"
+            android:key="@string/pref_key_vibrate"
+            android:summary="@string/pref_desc_vibrate_password"
+            android:title="@string/pref_tit_vibrate_password" />
+        <!-- Switch buttons -->
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_switch_buttons"
+            android:key="@string/pref_key_switch_buttons"
+            android:summary="@string/pref_desc_switch_buttons"
+            android:title="@string/pref_tit_switch_buttons" />
+    </PreferenceCategory>
+    <!-- PATTERN -->
+    <PreferenceCategory
+        android:key="@string/pref_key_cat_pattern"
+        android:title="@string/pref_tit_cat_pattern" >
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_vibrate"
+            android:key="@string/pref_key_vibrate"
+            android:summary="@string/pref_desc_vibrate_pattern"
+            android:title="@string/pref_tit_vibrate_pattern" />
+        <!-- Stealth mode -->
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_pattern_stealth"
+            android:key="@string/pref_key_pattern_stealth"
+            android:summary="@string/pref_desc_pattern_stealth"
+            android:title="@string/pref_tit_pattern_stealth" />
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_def_pattern_size"
+            android:key="@string/pref_key_pattern_size"
+            android:numeric="integer"
+            android:summary="@string/pref_desc_pattern_size"
+            android:title="@string/pref_tit_pattern_size" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/pref_key_cat_general"
+        android:title="@string/pref_tit_cat_general" >
+
+        <!-- Start at boot -->
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_start_boot"
+            android:key="@string/pref_key_start_boot"
+            android:summary="@string/pref_desc_start_boot"
+            android:title="@string/pref_tit_start_boot" />
+        <!-- Relock screenoff -->
+        <CheckBoxPreference
+            android:defaultValue="@bool/pref_def_relock_after_screenoff"
+            android:key="@string/pref_key_relock_after_screenoff"
+            android:summary="@string/pref_desc_relock_after_screenoff"
+            android:title="@string/pref_tit_relock_after_screenoff" />
+        <!-- Message -->
+        <EditTextPreference
+            android:defaultValue="@string/pref_def_lock_message"
+            android:dialogMessage="@string/pref_dlgmsg_lock_message"
+            android:dialogTitle="@string/pref_tit_lock_message"
+            android:key="@string/pref_key_lock_message"
+            android:selectAllOnFocus="true"
+            android:summary="@string/pref_desc_lock_message"
+            android:title="@string/pref_tit_lock_message" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
